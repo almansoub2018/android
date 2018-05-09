@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/birthday" android:scaleType="centerCrop"/>
+
+    <TextView android:text="Happy Birthday" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="@android:color/white"
+        android:layout_margin="20sp"
+        android:textSize="36sp" android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="123dp"
+        android:layout_marginEnd="22dp"
+        android:fontFamily="cursive"
+        android:text="I wish you a happy birthday "
+        android:textColor="@android:color/holo_purple"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView android:id="@+id/name"
+        android:text="from , Marwa" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>
