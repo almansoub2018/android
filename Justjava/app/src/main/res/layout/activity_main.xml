@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/coffee"
+    android:background="@drawable/coffee2"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -25,7 +25,6 @@
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:alpha="20"
             android:onClick="increament"
             android:padding="16dp"
             android:text="+" />
